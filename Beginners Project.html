@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginners Final Project</title>
+    <link rel="stylesheet" href="./Beginners Project.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <!-- HEADING PART (NAVBAR) -->
+
+        <main id="navbar">
+            <section class="container nav-bar">
+                
+                <img src="./Group2.svg" alt="" width="120px">
+
+                <div class="nav-bar-list">
+                    <ul class="list">
+                        <div class="dropdown cancel-btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#services">About</a></li>
+                        <li><a href="#about">Blog</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                    <ul class="mobile-list">
+                        <div class="dropdown cancel-btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#services">About</a></li>
+                        <li><a href="#about">Blog</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                    
+                    <button class="btn nav-bar-button" id="contactButton">Contact Us</button>
+
+                    <div id="contactFormContainer">
+                        <h2>Contact us</h2>
+                        <form action="">
+                            <label for="name">Name</label><br>
+                            <input type="text" class="name" id="name" placeholder="Name">
+                            <label for="email">Email</label><br>
+                            <input type="email" class="email" id="email" placeholder="Email">
+                            <label for="message">Message</label><br>
+                            <textarea rows="4" cols="2" class="email" id="email" placeholder="Enter your Message"></textarea>
+                            <button class="btn red-btn contactUsButton">Close</button>
+                            <button class="btn green-btn contactUsButton" >Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class=" dropdown hambudger-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+            </section>
+        </main>
+
+            <!-- HERO PART  (HOME PAGE) -->
+
+        <section class="container hero-container">
+            <div id="hero">
+                <h1>Search engine optimisation & <br>
+                Marketing.</h1>
+                <p>Simple is a simple template with a creative design that solves all your marketing and SEO queries.</p>
+                <div class="hero_button">
+                    <button class="btn green-btn">Get started</button>
+                    <button class="btn red-btn">Learn more</button>
+                </div>
+                <img src="./Group171.svg" alt="Hero-image">
+            </div>
+    
+        </section>
+
+    </header>
+
+    <!-- SECTION ONE (SERVICE PAGE) -->
+
+    <section id="services">
+        <div class="container service-container">
+            <div class="service-heading">
+                <h2>How does it works</h2>
+                <br>
+                <p>One theme that serves as an easy-to-use operational toolkit
+                     that meets customer's needs.</p>
+            </div>
+            <div class="service-rows">
+                <!-- ROW ONE -->
+                <div class="service-row">
+                    <img src="./Group12.svg" alt="">
+                    <h3>Speed<br>Optimization
+                    </h3>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Amet iusto tempora sunt nobis odio est.</P>
+                    <a href="#">Readmore</a>
+                </div>
+                <!-- ROW TWO -->
+                <div class="service-row">
+                    <img src="./Group7.svg" alt="">
+                    <h3>SEO and<br>
+                        Backlinks</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Architecto quia exercitationem laboriosam vero eveniet ipsum.</p>
+                    <a href="#">Readmore</a>
+                </div>
+                <!-- ROW THREE -->
+                <div class="service-row">
+                    <img src="./Group5.svg" alt="">
+                    <h3>Content<br>
+                        Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Odio neque facilis ipsa reprehenderit id placeat.
+                    </p>
+                    <a href="#">Readmore</a> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECTION TWO PART(ABOUT PAGE) -->
+
+    <section id="about">
+        <div class="container about-container">
+            <div class="about-1">
+                <h3>We Offer a Full Range <br> Of Digital Marketing Services!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore eos
+                        minus, ab quia aliquam neque. Explicabo, commodi? Accusantium, unde.</p>
+                
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam,
+                        tenetur magni! Quisquam facere ratione quam.</p>
+            </div>
+            <div class="about-img-1">
+                <img loading="lazy" src="./Group1.png" alt="">
+            </div>
+
+            <div class="about-img-2">
+                <img loading="lazy" src="./Group2.png" alt="">
+            </div>
+            <div class="about-2">
+                <h3>Leading Digital Agency <br>
+                For Business Solution.</h3>
+                <p>Power-packed with impressive features and well-optimized, this template is
+                        designed to improve the best performance in all circumstances.</p>
+                <p>Its smart features make it a powerful stand-alone website building tool.</p>
+                <button class="btn about-btn">Readmore</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR STUDIES PAGE (SECTION THREE) -->
+
+    <section id="studies">
+        <div class="container studies">
+            <div class="study-header">
+                <h2>Our Case Studies</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, Assumenda.</p>
+            </div>
+
+            <div class="study-boxes">
+                <div class="study-box">
+                    <div class="study-img color-blue">
+                     <img loading="lazy" src="./Group95.svg" alt="">
+                    </div>
+                    <div class="hover-effect">
+                        <div class="center">
+                            <h6>Know more about Online Marketing</h6>
+                            <button class="btn-white">Read More</button>
+                        </div>
+                    </div> 
+                    <h3>Online Marketing</h3>
+                    <p>SEO,Marketing</p>
+                </div>
+
+                <div class="study-box">
+                    <div class="study-img color-orange">
+                     <img loading="lazy" src="./Group108.svg" alt="">
+                    </div>
+                    <div class="hover-effect">
+                        <div class="center">
+                            <h6>Know more about Web Development</h6>
+                            <button class="btn-white">Read More</button>
+                        </div>
+                    </div> 
+                    <h3>Web Development</h3>
+                    <p>Developing,Designing</p>
+                </div>
+
+                <div class="study-box">
+                    <div class="study-img color-lilac">
+                     <img loading="lazy" src="./Group126.svg" alt="">
+                    </div>
+                    <div class="hover-effect">
+                        <div class="center">
+                            <h6>Know more about Web Designing</h6>
+                            <button class="btn-white">Read More</button>
+                        </div>
+                    </div> 
+                    <h3>Web Designing</h3>
+                    <p>Designing, Developing</p>
+                </div>
+
+                <div class="study-box">
+                    <div class="study-img color-green">
+                     <img loading="lazy" src="./Group115.svg" alt="">
+                    </div>
+                    <div class="hover-effect">
+                        <div class="center">
+                            <h6>Know more about Software Development</h6>
+                            <button class="btn-white">Read More</button>
+                        </div>
+                    </div> 
+                    <h3>Software Development</h3>
+                    <p>Developing, Designing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIAL PAGE (SECTION FOUR) -->
+    <section id="testimonials">
+        <div class="container testimonial-container carousel">
+            <h3 class="profile">What our customers have to say</h3>
+            <p class="profile">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+            <div class="testimonial-cards carousel-inner">
+                <div class="cards profile carousel-item  active">
+                    <img src="./face2.jpg" alt="">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, natus? Earum quia consequuntur amet rem.</p>
+                    <div class="underline-black"></div>
+                    <h6 class="name">Sophia Armstrong</h6>
+                    <h6 class="title">Marketing Manager</h6>
+                </div>
+
+                <div class="cards profile carousel-item">
+                    <img src="./face3.jpg" alt="">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, natus? Earum quia consequuntur amet rem.</p>
+                    <div class="underline-red"></div>
+                    <h6 class="name">Tony Martinez</h6>
+                    <h6 class="title">Marketing Manager</h6>
+                </div>
+    
+                <div class="cards profile carousel-item">
+                    <img src="./face8.jpg" alt="">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, natus? Earum quia consequuntur amet rem.</p>
+                    <div class="underline-black"></div>
+                    <h6 class="name">Cody Lambert</h6>
+                    <h6 class="title">Marketing Manager</h6>
+                </div>
+
+                <div class="cards profile carousel-item">
+                    <img src="./face1.jpg" alt="">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, natus? Earum quia consequuntur amet rem.</p>
+                    <div class="underline-red"></div>
+                    <h6 class="name">Taiwo Usman</h6>
+                    <h6 class="title">Backend Developer</h6>
+                </div>
+
+                <div class="cards profile carousel-item">
+                    <img src="./face15.jpg" alt="">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, natus? Earum quia consequuntur amet rem.</p>
+                    <div class="underline-black"></div>
+                    <h6 class="name">Julius Onoja</h6>
+                    <h6 class="title">Hospitality Manager</h6>
+                </div>
+
+                <div class="cards profile carousel-item">
+                    <img src="./face16.jpg" alt="">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, natus? Earum quia consequuntur amet rem.</p>
+                    <div class="underline-red"></div>
+                    <h6 class="name">Kehinde Usman</h6>
+                    <h6 class="title">Digital Marketing</h6>
+                </div>
+
+                <div class="cards profile carousel-item">
+                    <img src="./face20.jpg" alt="">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, natus? Earum quia consequuntur amet rem.</p>
+                    <div class="underline-black"></div>
+                    <h6 class="name">Sarah Hanks</h6>
+                    <h6 class="title">Frontend Developer</h6>
+                </div>
+            </div>
+
+            <div class="carousel-indicators">
+                <span class="indicator active" onclick="currentSlide(0)"></span>
+                <span class="indicator" onclick="currentSlide(1)"></span>
+                <span class="indicator" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+    </section>
+
+     <!-- CONTACT PART (SECTION FIVE) -->
+
+    <section id="contact">
+        <div class="container contact-container">
+            <div class="contact text">
+                <h2>Do you have any projects? <br><br>
+                Contact us</h2>
+                <button class="btn contact-btn">Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER PART (SECTION SIX) -->
+
+    <section id="footer">
+        <div class="container footer-container">
+        
+            <div class="main-footer">
+                <div class="footer">
+                    <img src="./Group2.svg" alt="">
+                    <p class="footer-text">mikayla_beer@feil.name</p>
+                    <p class="footer-text">906-179-8309</p>
+                </div>
+
+                <div class="footer">
+                    <h5>Get in Touch</h5>
+                    <p class="footer-text">Don't miss any updates of our new templates and extension!</p>
+                    <form action="#">
+                        <input type="email" class="email" id="email" placeholder="Email id">
+                    </form>
+                    <button class="btn footer-btn">Subscribe</button>
+                </div>
+
+                <div class="footer">
+                    <h5>Our Guidelines</h5>
+                    <ul class="footer-links footer-text">
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookies Policy</a></li>
+                        <li><a href="#">Discover</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <h5>Our address</h5>
+                    <p class="footer-text">518 Schmeler Neck <br> Bartlett. llinois</p>
+                    <div class="socials">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-underline"></div>
+            <div class="sub-footer">
+                <p class="copy-right text">Copyright <a href="">&#169;</a> <span id="copyright-year"></span><a href="https://www.bootstrapdash.com/">Tripper</a>. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- <div class="hero">
+        <h2 class="hero-h2">Search engine optimisation & <br> Marketing.</h2>
+        <p class="hero-p">Simple is a simple template with a creative design that solves all your marketing and SEO queries.</p>
+        <div class="hero-button">
+            <button class="hero-button1">Get Started</button>
+            <button class="hero-button2">Learn More</button>
+        </div>
+        <img class="hero-img" src="./Group171.svg" alt="" width="330px" height="300px">
+    </div> -->
+
+  <!-- SECTION ONE (ABOUT PAGE) -->
+
+        <!-- <div class="section-one">
+            <h2 class="section-one-h2">How does it works</h2>
+            <p class="section-one-p">One theme that serves as an easy-to-use operational toolkit that meets customer's needs.</p>
+        </div> -->
+        <!-- <div class="section-one-rows"> -->
+            <!-- ROW ONE -->
+            <!-- <div class="section-one-row1">
+                <img src="./Group12.svg" alt="">
+                <p class="sub-text">Speed<br>Optimization
+                </p>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iusto tempora sunt nobis odio est.</P>
+                <a href="">Readmore</a>
+            </div> -->
+            <!-- ROW TWO -->
+            <!-- <div class="section-one-row2">
+                <img src="./Group7.svg" alt="">
+                <p class="sub-text">SEO and<br>Backlinks</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quia exercitationem laboriosam vero eveniet ipsum.</p>
+                <a href="">Readmore</a>
+            </div> -->
+            <!-- ROW THREE -->
+            <!-- <div class="section-one-row3">
+                <img src="./Group5.svg" alt="">
+                <p class="sub-text">Content<br>Marketing</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio neque facilis ipsa reprehenderit id placeat.
+                </p>
+                <a href="">Readmore</a> 
+            </div> -->
+        </div>
+
+
+ <!-- SECTION TWO PART(BLOGS PAGE1) -->
+
+        <!-- <div class="section-two">
+            <div class="section-two-title">
+                <h4>We Offer a Full Range <br> Of Digital Marketing Services!</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore eos minus, ab quia aliquam neque. Explicabo, commodi? Accusantium, unde.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, tenetur magni! Quisquam facere ratione quam.</p>
+            </div>
+            <div class="section-two-img">
+                <img src="./Group1.png" alt="">
+            </div>
+        </div> -->
+
+ <!-- SECTION THREE PART (BLOGS PAGE2) -->
+
+        <!-- <div class="section-three">
+            <div class="section-three-img">
+                <img src="./Group2.png" alt="">
+            </div>
+            <div class="section-three-title">
+                <h4>Leading Digital Agency For Business Solution.</h4>
+                <p>Power-packed with impressive features and well-optimized, this template is designed to improve the best performance in all circumstances.</p>
+                <p>Its smart features make it a powerful stand-alone website building tool.</p>
+                <button>Readmore</button>
+            </div>
+        </div> -->
+
+ <!-- SECTION FOUR PART(DISPLAY OF GRID) -->
+
+        <!-- <div class="section-four">
+            <h4>Our Case Studies</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, Assumenda.</p>
+        </div>
+
+        <div class="section-four-grid">
+            <div class="grid-item">
+                <div class="grid-img1">
+                 <img src="./Group95.svg" alt="">
+                </div> 
+                <h6>Online Marketing</h6>
+                <p>SEO,Marketing</p>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-img2">
+                 <img src="./Group108.svg" alt="">
+                </div> 
+                <h6>Web Development</h6>
+                <p>Developing,Designing</p>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-img3">
+                 <img src="./Group126.svg" alt="">
+                </div> 
+                <h6>Web Designing</h6>
+                <p>Designing, Developing</p>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-img4">
+                 <img src="./Group115.svg" alt="">
+                </div> 
+                <h6>Software Development</h6>
+                <p>Developing, Designing</p>
+            </div>
+        </div> -->
+
+ <!-- SECTION FIVE PART (TESTIMONIAL PAGE) -->
+   
+        <!-- <div class="section-five">
+            <h4>What our customers have to say</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="section-five-cards">
+            <div class="cards">
+                <img src="./face2.jpg" alt="">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, natus? Earum quia consequuntur amet rem.</p>
+                <div class="name-title">
+                    <p class="name">Sophia Armstrong</p>
+                    <p class="title">Marketing Manager</p>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="./face3.jpg" alt="">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, natus? Earum quia consequuntur amet rem.</p>
+                <div class="name-title">
+                    <p class="name">Tony Martinez</p>
+                    <p class="title">Marketing Manager</p>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="./face8.jpg" alt="">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, natus? Earum quia consequuntur amet rem.</p>
+                <div></div>
+                <div class="name-title">
+                    <p class="name">Cody Lambert</p>
+                    <p class="title">Marketing Manager</p>
+                </div>
+            </div>
+        </div> -->
+
+ <!-- SECTION SIX PART -->
+
+        <!-- <div class="section-six">
+            <div class="section-six-content">
+                <p>Do you have any project? <br><br> Contact Us</p>
+                <button>Contact Us</button>
+            </div>
+        </div> -->
+
+ <!-- SECTION SEVEN PART (CONTACT PAGE) -->
+
+        <!-- <footer>
+            <div class="grids">
+                <div class="row1">
+                    <img src="./Group2.svg" alt="">
+                    <p class="mail">mikayla_beer@feil.name</p>
+                    <p class="phone">906-179-8309</p>
+                </div>
+
+                <div class="row2">
+                    <p class="contact">Get in Touch</p>
+                    <p class="text">Don't miss any updates of our new <br>templates and extension!</p>
+                    <form action="">
+                        <input type="text" class="email" id="email" placeholder="Email id">
+                    </form>
+                    <br>
+                    <button>Subscribe</button>
+                </div>
+
+                <div class="row3">
+                    <p class="guidelines">Our Guidelines</p>
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <br>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <br>
+                        <li><a href="#">Cookies Policy</a></li>
+                        <br>
+                        <li><a href="#">Discover</a></li>
+                    </ul>
+                </div>
+
+                <div class="row4">
+                    <p class="address">Our address</p>
+                    <p class="text">518 Schmeler Neck <br><br> Bartlett. llinois</p>
+                    <div class="socials">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+        </footer> -->
+        <!-- <hr> -->
+ <!-- SECTION EIGHT PART(COPYRIGHT) -->
+
+        <!-- <p class="copy-right">Copyright <a href="">&#169;</a> <span id="copyright-year"></span><a href="">Tripper</a>. All rights reserved.</p> -->
+
+
+    <script src="./Beginners Project.js"></script>
+</body>
+</html>

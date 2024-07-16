@@ -2,7 +2,7 @@
 
 const body = document.querySelector("body");
 const navbar = document.querySelector("#navbar");
-const list = document.querySelector(".nav-bar-list");
+const list = document.querySelector(".nav-bar-list .list");
 const hambudger = document.querySelector(".hambudger-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
 
@@ -24,41 +24,7 @@ window.onscroll = ()=> {
     this.scrollY > 500 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
 }
 
-// CAROUSEL (SECTION FOUR) ON TESTIMONIALS PAGE (PAGINATION INDECATOR ONCLICK)
 
-// let currentIndex = 0;
-
-// function showSlide(index) {
-//     const carouselInner = document.querySelector('.carousel-inner');
-//     const totalSlides = document.querySelectorAll('.carousel-item').length;
-
-//     if (index >= totalSlides) {
-//         currentIndex = 0;
-//     } else if (index < 0) {
-//         currentIndex = totalSlides - 1;
-//     } else {
-//         currentIndex = index;
-//     }
-
-//     const offset = -currentIndex * 100;
-//     carouselInner.style.transform = `translateX(${offset}%)`;
-
-//     document.querySelectorAll('.indicator').forEach((indicator, i) => {
-//         indicator.classList.toggle('active', i === currentIndex);
-//     });
-// }
-
-// function currentSlide(index) {
-//     showSlide(index);
-// }
-
-// document.querySelectorAll('.indicator').forEach((indicator, index) => {
-//     indicator.addEventListener('click', () => {
-//         currentSlide(index);
-//     });
-// });
-
-// showSlide(currentIndex);
 
 
 
@@ -116,16 +82,3 @@ contactButton.addEventListener("click", function() {
 
 // FOOTER PAGE (COPYRIGHT YEAR UPDATE)
 document.getElementById('copyright-year').textContent = new Date().getFullYear();
-
-
-// SECTION TWO PART(TO ADD TRANSITION WHEN PAGE IS RELOADED)
-// window.addEventListener('load', function() {
-//     this.document.querySelector('.section-two-title').classList.add('visible');
-//     document.querySelector('.section-two-img').classList.add('visible');
-// });
-
-// SECTION TWO PART(TO ADD TRANSITION WHEN PAGE IS RELOADED)
-// window.addEventListener('load', function() {
-//     this.document.querySelector('.section-three-title').classList.add('visible');
-//     document.querySelector('.section-three-img').classList.add('visible');
-// });

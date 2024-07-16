@@ -105,7 +105,7 @@ header {
 
 .nav-bar-button {
     flex-shrink: 0;
-    margin-left: auto;
+    margin-left: 10rem;
     padding-top: 7px;
     padding-bottom: 7px;
     background-color: var(--info);
@@ -797,23 +797,15 @@ border: 2px solid var(--success);
         margin-top: 6rem;
         margin-bottom: 2rem;
     }
-
-    .dropdown.cancel-btn {
-       display: none;
-    }
-      
-    .dropdown.cancel-btn.show {
-       display: block;
-    }
     
-    /* .nav-bar .list {
+    .nav-bar .list {
         display: none;
         flex-direction: column;
         background-color: var(--white);
         width: 50%;
         position: absolute;
         top: 50px;
-        left: 190px;
+        left: 15px;
         padding: 1rem 0;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     }
@@ -822,8 +814,14 @@ border: 2px solid var(--success);
         display: flex;
     }
 
-    .dropdown {
+    /* .dropdown {
         display: block;
+    } */
+
+    .hambudger-btn {
+        display: block;
+        position: absolute;
+        right: 40px;
     }
 
     .hambudger-btn .hide {
@@ -832,9 +830,31 @@ border: 2px solid var(--success);
 
     .hambudger-btn .show {
         display: block;
-    } */
+    }
+    
+    .dropdown.cancel-btn {
+        display: none;
+        position: absolute;
+        right: 40px;
+        top: 15px;
+    }
 
-    .list {
+    .dropdown.cancel-btn.show {
+        display: block;
+        position: absolute;
+        top: 10px;
+    }
+
+    .nav-bar li {
+        margin-top: 10px;
+    }
+
+    .nav-bar .nav-bar-button {
+        margin-top: 0px;
+        display: block;
+    } 
+
+    /* .list {
       flex-direction: column;
       border-bottom: 2rem;
     }
@@ -850,9 +870,9 @@ border: 2px solid var(--success);
     
     .dropdown.hide {
        display: none;
-    }
+    } */
   
-    .nav-bar .nav-bar-list .list {
+    /* .nav-bar .nav-bar-list .list {
         position: fixed;
         top: 0px;
         right: -100%;
@@ -860,29 +880,22 @@ border: 2px solid var(--success);
         width: 100%;
         max-width: 230px;
         background-color: #f7f8fa;
-        display: none;
-        flex-direction: column;
+        display: block;
         padding-left: 20px;
         text-align: center;
         transition: var(--transition);
-    }
+    } */
 
-    .nav-bar .nav-bar-list.active {
+    /* .nav-bar .nav-bar-list.active {
         right: 0;
     } 
 
     .nav-bar {
         display: flex;
         justify-content: space-between;
-    }
-
-    .nav-bar li {
-        margin-top: 60px;
-    }
+    } */
     
-    .nav-bar .nav-bar-button {
-        margin-top: 20px;
-    } 
+    
 
     .service-container {
         width: var(--container-width-md);
@@ -939,8 +952,106 @@ border: 2px solid var(--success);
    .dropdown.hambudger-btn {
         position: absolute;
         right: 40px;
-    } 
+    }
+    
+    .nav-bar .nav-bar-button {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+    }
 
+    /* HEADING STYLING (NAVBAR) */
+
+    /* header {
+        background-color: var(--hero-background);
+    }
+
+    .nav-bar {
+        display: flex;
+        gap: 20rem;
+        align-items: center;
+        padding: 1.5rem 0;
+        justify-content: space-between;
+    }
+
+    .list {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    
+    .nav-bar .list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding: 0 0.5rem;
+    }
+
+    #navbar {
+        background-color: var(--hero-background);
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+    }
+    
+    #navbar .sticky {
+        background: var(--white);
+        box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-bar-button {
+        flex-shrink: 0;
+        margin-left: auto;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        background-color: var(--info);
+        color: var(--white);
+    }
+
+    .nav-bar .btn:hover {
+        background: transparent;
+        border: 2px solid var(--info);
+        color: var(--dark);
+    }
+    
+    .nav-bar .nav-bar-list {
+        display: flex;
+        align-items: center; 
+        width: 100%;
+        padding: 0 0.5rem;
+    }
+
+    .nav-bar-list .list li {
+        font-size: 16px;
+    }
+    
+    li a {
+        color: var(--dark);
+        transition: var(--transition);
+    }
+    
+    .nav-bar li a:hover {
+        color: red;
+    }
+
+    .dropdown {
+        cursor: pointer;
+        display: none;
+    }
+    
+    .dropdown .cancel-btn {
+        position: absolute;
+        left: 30px;
+        top: 20px;
+    }
+
+    .dropdown .hambudger-btn a {
+        font-size: 30px;
+    } */
+
+
+    /* HERO-PAGE STYLING */
     .hero-page img{
         width: 300px;
     }

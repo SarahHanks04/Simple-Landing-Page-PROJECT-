@@ -850,7 +850,8 @@ border: 2px solid var(--success);
     }
 
     .nav-bar .nav-bar-button {
-        margin-top: 0px;
+        margin-top: 0;
+        margin-right: 40px;
         display: block;
     } 
 

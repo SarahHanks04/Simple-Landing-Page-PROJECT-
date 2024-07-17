@@ -814,10 +814,6 @@ border: 2px solid var(--success);
         display: flex;
     }
 
-    /* .dropdown {
-        display: block;
-    } */
-
     .hambudger-btn {
         display: block;
         position: absolute;
@@ -854,11 +850,6 @@ border: 2px solid var(--success);
         margin-right: 40px;
         display: block;
     } 
-
-    /* .list {
-      flex-direction: column;
-      border-bottom: 2rem;
-    }
 
     .dropdown {
         display: block;

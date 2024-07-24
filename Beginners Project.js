@@ -81,4 +81,4 @@ contactButton.addEventListener("click", function() {
 
 
 // FOOTER PAGE (COPYRIGHT YEAR UPDATE)
-document.getElementById('copyright-year').textContent = new Date().getFullYear();
+document.getElementById('copyright-year').innerText = new Date().getFullYear();

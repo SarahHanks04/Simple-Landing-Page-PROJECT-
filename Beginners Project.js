@@ -78,7 +78,7 @@ contactButton.addEventListener("click", function() {
     contactFormContainer.style.display = "none";
   }
 });
-
+ 
 
 // FOOTER PAGE (COPYRIGHT YEAR UPDATE)
 document.getElementById('copyright-year').innerText = new Date().getFullYear();

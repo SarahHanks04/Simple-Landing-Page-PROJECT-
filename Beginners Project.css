@@ -889,8 +889,6 @@ border: 2px solid var(--success);
     .about-2 {
       padding: 0; 
     }
-
-    
     
     .main-footer {
         gap: 2.2rem;
@@ -1000,17 +998,6 @@ border: 2px solid var(--success);
     
     .nav-bar li a:hover {
         color: red;
-    }
-
-    .dropdown {
-        cursor: pointer;
-        display: none;
-    }
-    
-    .dropdown .cancel-btn {
-        position: absolute;
-        left: 30px;
-        top: 20px;
     }
 
     .dropdown .hambudger-btn a {

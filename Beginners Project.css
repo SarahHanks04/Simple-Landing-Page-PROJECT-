@@ -110,7 +110,6 @@ header {
     padding-bottom: 7px;
     background-color: var(--info);
     color: var(--white);
-    /* position: relative; */
 }
 
 .nav-bar .btn:hover {
@@ -129,9 +128,6 @@ header {
 .nav-bar-list .list li {
     font-size: 16px;
 }
-/* .mobile-list{
-  display: none;
-} */
 
 li a{
     color: var(--dark);
@@ -143,7 +139,6 @@ li a{
 }
 
 .dropdown {
-    /* font-size: 20px; */
     cursor: pointer;
     display: none;
 }
@@ -157,10 +152,6 @@ li a{
 .dropdown .hambudger-btn a {
     font-size: 30px;
 }
-
-/* #navbar .sticky .dropdown .cancel-btn {
-    top: 10px;
-} */
 
 /* HEADING STYLING (CONTACT US FORM) */
 #contactFormContainer {

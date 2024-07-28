@@ -66,65 +66,6 @@ section {
 
 
 
-/* CONTACT PAGE (SECTION FIVE) */
-
-#contact {
-    margin-top: 4rem;
-}
-
-.contact-btn {
-    border-radius: 2.5rem;
-    border: 2px solid var(--danger);
-    background-color: var(--white);
-    color: var(--danger);
-    margin-top: 2rem;
-    transition: var(--transition);
-}
-
-.contact-btn:hover {
-    background: var(--danger);
-    color: var(--white);
-}
-
-.contact-container {
-    background: url('./gdpr.jpg');
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    padding: 83px 0px 68px 0px;
-}
-
-.text {
-    text-align: center;
-}
-
-.contact h2 {
-    transform: translateY(-5rem);
-    transition: var(--transition);
-    animation: card2 1s forwards ease-in;
-    opacity: 0;
-}
-
-.contact-btn {
-    transform: translateY(5rem);
-    transition: var(--transition);
-    animation: card2 1s forwards ease-in;
-    opacity: 0;
-    text-align: center;
-}
-
-@keyframes card2 {
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-    
-}
 
 
 /* FOOTER PART (SECTION SIX) */
